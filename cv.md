@@ -45,11 +45,11 @@ function countDays(d){
 __Education__
 
 
-- Secondary vocational education, St. Petersburg College of Telecommunications, St. Petersburg
+- Secondary vocational education, [St. Petersburg College of Telecommunications](https://www.sutkt.ru/), St. Petersburg
     * programming in computer systems
-- freecodecamp 'in progress'
-- CS50
-- RS School JS/FE 'in progress'
+- [freecodecamp](https://www.freecodecamp.org/learn/2022/responsive-web-design) 'in progress'
+- [CS50](https://www.youtube.com/c/cs50)
+- [RS School JS/FE](https://rs.school/js/) 'in progress'
 
 
 __Languages__
