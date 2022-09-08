@@ -25,7 +25,7 @@ __Skills__
 __Code example__
 
 
-Task from CodeWars: Write a function which returns the number of days from today till the given date. The function will take a Date object as parameter. You have to round the amount of days.
+Task from __CodeWars:__ _Write a function which returns the number of days from today till the given date. The function will take a Date object as parameter. You have to round the amount of days._
 ```
 function countDays(d){
   let currDate = Date.parse(new Date()),
