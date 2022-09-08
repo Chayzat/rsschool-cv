@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>RS School</title>
+</head>
+<body>
+    <h1>Chayzat Oorzhak</h1>
+    <p>Intern/Junior Frontend Developer</p>
+    <h3>Contact</h3>
+    <ul>
+        <li>email: chayzat.oorzhak.2001@mail.ru</li>
+        <li>telegram: @chayzash</li>
+    </ul>
+    <h3>About me</h3>
+    <p>I am currently studying web development with great pleasure. Always grateful and ready for new opportunities.
+        I hope my curiosity and dilligence will help me become a frontend developer.
+    </p>
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML, CSS, JavaScript Basics</li>
+        <li>Git, GitHub</li>
+        <li>VS Code, Figma</li>
+    </ul>
+    <h3>Code example</h3>
+    <p>Task from <b>CodeWars:</b><i>Write a function which returns the number of days from today till the given date.
+        The function will take a Date object as parameter. 
+        You have to round the amount of days.</i>
+    </p>
+    <pre>
+        <code>
+            function countDays(d){
+                let currDate = Date.parse(new Date()),
+                    dDate = Date.parse(d);
+                let days = (dDate - currDate) / 86400000;
+                if (dDate == currDate) {
+                  return 'Today is the day!';
+                }
+                else if (currDate &gt dDate) {
+                  return 'The day is in the past!';
+                }
+                else {
+                  return `${Math.round(days)} days`;
+                }
+              }
+        </code>
+    </pre>
+   
+    <h3>Education</h3>
+    <ul>
+        <li>
+            Secondary vocational education,
+            <a href="https://www.sutkt.ru/">St. Petersburg College of Telecommunications</a>,
+             St. Petersburg
+            <ul>
+                <li>programming in computer systems</li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">freecodecamp</a>
+            'in progress'
+        </li>
+        <li>
+            <a href="https://www.youtube.com/c/cs50">CS50</a>
+        </li>
+        <li>
+            <a href="https://rs.school/js/">RS School JS/FE</a>
+            'in progress'
+        </li>
+    </ul>
+    <h3>Languages</h3>
+    <ul>
+        <li>English - B1</li>
+    </ul>
+</body>
+</html>
