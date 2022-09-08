@@ -1,1 +1,1 @@
-# rsschool-cv
+https://chayzat.github.io/rsschool-cv/cv
